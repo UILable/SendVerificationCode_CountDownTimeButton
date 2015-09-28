@@ -14,6 +14,7 @@
 		8B2309971BAA500B00FA3732 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2309961BAA500B00FA3732 /* Images.xcassets */; };
 		8B23099A1BAA500B00FA3732 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B2309981BAA500B00FA3732 /* LaunchScreen.xib */; };
 		8B2309A61BAA500B00FA3732 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2309A51BAA500B00FA3732 /* ___Tests.m */; };
+		8B2309B41BAA520D00FA3732 /* CountDownTimeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2309B31BAA520D00FA3732 /* CountDownTimeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8B23099F1BAA500B00FA3732 /* 定时器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "定时器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2309A41BAA500B00FA3732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B2309A51BAA500B00FA3732 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		8B2309B21BAA520D00FA3732 /* CountDownTimeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownTimeButton.h; sourceTree = "<group>"; };
+		8B2309B31BAA520D00FA3732 /* CountDownTimeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownTimeButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				8B23098E1BAA500B00FA3732 /* AppDelegate.m */,
 				8B2309901BAA500B00FA3732 /* ViewController.h */,
 				8B2309911BAA500B00FA3732 /* ViewController.m */,
+				8B2309B21BAA520D00FA3732 /* CountDownTimeButton.h */,
+				8B2309B31BAA520D00FA3732 /* CountDownTimeButton.m */,
 				8B2309931BAA500B00FA3732 /* Main.storyboard */,
 				8B2309961BAA500B00FA3732 /* Images.xcassets */,
 				8B2309981BAA500B00FA3732 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2309B41BAA520D00FA3732 /* CountDownTimeButton.m in Sources */,
 				8B2309921BAA500B00FA3732 /* ViewController.m in Sources */,
 				8B23098F1BAA500B00FA3732 /* AppDelegate.m in Sources */,
 				8B23098C1BAA500B00FA3732 /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				8B2309AB1BAA500B00FA3732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2309AC1BAA500B00FA3732 /* Build configuration list for PBXNativeTarget "定时器Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				8B2309AE1BAA500B00FA3732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

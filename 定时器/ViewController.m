@@ -2,21 +2,27 @@
 //  ViewController.m
 //  定时器
 //
-//  Created by ainolee on 15/9/17.
-//  Copyright (c) 2015年 com.kls66.www. All rights reserved.
 //
 
 #import "ViewController.h"
-
+#import "CountDownTimeButton.h"
 @interface ViewController ()
-
+@property(strong,nonatomic)CountDownTimeButton *countBtn;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _countBtn=[[CountDownTimeButton alloc]initWithFrame:CGRectMake(100, 200, 100, 30) WithBtnTitle:@"点击获取验证码"];
+    
+    [_countBtn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_countBtn];
+    
+}
+-(void)click
+{
+    [_countBtn startWithSecond:5];
 }
 
 - (void)didReceiveMemoryWarning {
