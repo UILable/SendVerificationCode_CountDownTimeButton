@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847044121C40120600F2BE29 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 847044111C40120600F2BE29 /* UIButton+CountDown.m */; };
 		8B23098C1BAA500B00FA3732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B23098B1BAA500B00FA3732 /* main.m */; };
 		8B23098F1BAA500B00FA3732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B23098E1BAA500B00FA3732 /* AppDelegate.m */; };
 		8B2309921BAA500B00FA3732 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2309911BAA500B00FA3732 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		847044101C40120600F2BE29 /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		847044111C40120600F2BE29 /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
 		8B2309861BAA500B00FA3732 /* 定时器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "定时器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B23098A1BAA500B00FA3732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B23098B1BAA500B00FA3732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +66,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8470440F1C4011C700F2BE29 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8B2309B31BAA520D00FA3732 /* CountDownTimeButton.m */,
+				8B2309B21BAA520D00FA3732 /* CountDownTimeButton.h */,
+				847044101C40120600F2BE29 /* UIButton+CountDown.h */,
+				847044111C40120600F2BE29 /* UIButton+CountDown.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 		8B23097D1BAA500B00FA3732 = {
 			isa = PBXGroup;
 			children = (
@@ -88,8 +102,7 @@
 				8B23098E1BAA500B00FA3732 /* AppDelegate.m */,
 				8B2309901BAA500B00FA3732 /* ViewController.h */,
 				8B2309911BAA500B00FA3732 /* ViewController.m */,
-				8B2309B21BAA520D00FA3732 /* CountDownTimeButton.h */,
-				8B2309B31BAA520D00FA3732 /* CountDownTimeButton.m */,
+				8470440F1C4011C700F2BE29 /* Class */,
 				8B2309931BAA500B00FA3732 /* Main.storyboard */,
 				8B2309961BAA500B00FA3732 /* Images.xcassets */,
 				8B2309981BAA500B00FA3732 /* LaunchScreen.xib */,
@@ -226,6 +239,7 @@
 			files = (
 				8B2309B41BAA520D00FA3732 /* CountDownTimeButton.m in Sources */,
 				8B2309921BAA500B00FA3732 /* ViewController.m in Sources */,
+				847044121C40120600F2BE29 /* UIButton+CountDown.m in Sources */,
 				8B23098F1BAA500B00FA3732 /* AppDelegate.m in Sources */,
 				8B23098C1BAA500B00FA3732 /* main.m in Sources */,
 			);
