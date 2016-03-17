@@ -21,4 +21,9 @@
  */
 - (void)startWithTime:(NSInteger)timeLine title:(NSString *)title countDownTitle:(NSString *)subTitle mainColor:(UIColor *)mColor countColor:(UIColor *)color;
 
+
+
+-(void)countDwon:(NSInteger)seconds;
+
+
 @end
